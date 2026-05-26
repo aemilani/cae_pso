@@ -73,6 +73,7 @@ class CAE:
         self.model.set_weights(weights)
 
     def train(self, data, n_gen=200, pop_size=20, log_filepath='data/output/logs/'):
+        os.makedirs(log_filepath, exist_ok=True)
         logger = _get_logger(log_filepath)
 
         if "FitnessMax" in creator.__dict__:

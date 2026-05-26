@@ -1,1 +1,14 @@
+# Environments
+.venv/
+venv/
+env/
+
+# IDEs
 .idea/
+__pycache__/
+*.pyc
+
+# Build directories (created when you run python -m build)
+dist/
+build/
+*.egg-info/

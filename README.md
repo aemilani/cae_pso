@@ -1,8 +1,7 @@
 # CAE-PSO
- Welcome to cae_pso! 
 
-A Convolutional Autoencoder Trained Using the PSO Algorithm for Extracting Latent Monotonic Factors from Multivariate
-Time Series 
+A Convolutional Autoencoder trained Using the PSO algorithm for extracting latent monotonic factors from multivariate
+time series
 
 Here we provide information about
 1. Introduction

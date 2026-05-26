@@ -42,7 +42,7 @@ from cae_pso import CAE
 # Each array MUST have the shape: (1, total_time_steps, n_features, 1)
 total_time_steps = 1000
 n_features = 4
-time_window = 30
+time_window = 10
 
 # Creating a single dummy run-to-failure (RTF) trajectory
 rtf_trajectory = np.random.rand(1, total_time_steps, n_features, 1)

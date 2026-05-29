@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cae-pso"
-version = "0.0.3"
+dynamic = ["version"]
+
 authors = [
   { name="Ali Eftekhari Milani", email="aealieftekhary@gmail.com" },
 ]
@@ -63,3 +64,6 @@ dependencies = [
     "wheel==0.47.0",
     "wrapt==2.2.1",
 ]
+
+[tool.setuptools.dynamic]
+version = {attr = "cae_pso.__version__"}
